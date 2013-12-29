@@ -1,0 +1,25 @@
+一、场景
+	1. 大小
+		480*320横屏
+
+二、资源分类与命名
+	1. bg
+		bg_logo_001.png
+		bg_title_001.png
+		bg_game_001.png
+		bg_help_001.png
+	
+	2. text
+		text_touchthescreen_001.png
+	
+	3. menu
+		menu_start_001.png
+		menu_start_002.png
+		menu_help_001.png
+		menu_help_002.png
+		menu_quit_001.png
+		menu_quit_002.png
+
+	4. sprite
+	
+	

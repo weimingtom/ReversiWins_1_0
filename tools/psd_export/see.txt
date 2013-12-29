@@ -1,0 +1,36 @@
+http://www.dotinga.com/2011/02/export-layers-as-files-with-layernames/
+
+Export layers as files with layernames
+Javascript, PhotoshopComments Off
+Feb
+22
+2011
+Edit a Photoshop scripting jsx file to export each layer as seperate file, with the layername as filename.
+
+Today I needed to export every layer in a photoshop document as files. Photoshop has a default script for this. You can find it here: file -> scripts -> Export Layers to Files.
+
+The only drawback is that the filename is composed from a prefix + number + layer name. And I want only the layername. What we have to do is edit the ¡°Export Layers to Files.jsx¡± file. This is a javascript file that we can edit.
+
+mac: /Applications/Adobe/Adobe\ Photoshop\ CS4/Presets/Scripts/
+win: C:\Program Files\Adobe\Adobe Photoshop CS3\Presets\Scripts
+Then open the file and search for ¡°fileNameBody +=¡± and edit:
+
+1
+2
+3
+var fileNameBody = fileNamePrefix;
+fileNameBody += "_" + zeroSuppress(i, 4);
+fileNameBody += "_" + layerName;
+to:
+
+1
+2
+var fileNameBody = fileNamePrefix;
+fileNameBody += layerName;
+You have to make sure there are no duplicate layernames otherwise the script will overwrite these files. If you don¡¯t want to edit this file you can download my version.
+
+
+ 
+PHP Freelancer
+No related posts.
+

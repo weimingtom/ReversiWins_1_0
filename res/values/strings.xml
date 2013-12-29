@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ReversiWinsActivity!</string>
+    <!-- 
+    <string name="app_name">ReversiWins</string>
+ 	-->
+ 	<string name="app_name">黑白棋争胜</string>
+ 	<string name="feedback">意见反馈</string>
+ 	<string name="subject_title">关于黑白棋争胜 v1.0</string>
+ 	<string name="mail_address">mailto:weimingtom@qq.com</string>
+ 	<string name="activity_not_found">找不到合适的应用程序</string>
+ 	<string name="bug_report_title">错误报告</string>
+ 	<string name="bug_report_message">是否发送错误报告？</string>
+ 	<string name="bug_report_send">发送</string>
+ 	<string name="bug_report_not_send">不发送</string>
+ 	
+ 	<string name="about">关于</string>
+ 	<string name="about_title">关于黑白棋争胜</string>
+ 	<string name="about_message">\n
+version: 1.0\n
+author: weimingtom\n
+mail: weimingtom@qq.com\n
+ 	</string>
+ 	<string name="about_ok">确定</string>
+</resources>
