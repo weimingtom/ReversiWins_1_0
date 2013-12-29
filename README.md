@@ -8,6 +8,6 @@ References:
 	http://www.andengine.org/  
 	see origin_files/AndEngineLib.7z  
 
-(2) Takahashi
+(2) Takahashi  
 	www.nscripter.com/reversi.lzh (This is a dead link)  
 	see origin_files/reversi.lzh  
